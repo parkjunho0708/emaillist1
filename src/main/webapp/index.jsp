@@ -24,7 +24,7 @@
 	</table>
 	<br>
 	<p>
-		<a href='<%= request.getContextPath() %>'>추가메일 등록</a>
+		<a href='<%=request.getContextPath() %>/form.jsp'>추가메일 등록</a>
 	</p>
 	<br>
 </body>
