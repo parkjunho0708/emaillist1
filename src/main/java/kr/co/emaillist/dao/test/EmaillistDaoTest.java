@@ -29,7 +29,6 @@ public class EmaillistDaoTest {
 
 	public static void getListTest() {
 		List<EmaillistVo> list = new EmaillistDao().getList();
-
 		for (EmaillistVo vo : list) {
 			System.out.println(vo);
 		}

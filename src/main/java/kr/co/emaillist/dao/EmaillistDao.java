@@ -70,7 +70,7 @@ public class EmaillistDao {
 		try {
 			connection = getConnection();
 
-			String sql = "select no, first_name, last_name, email from emaillist order by no asc";
+			String sql = "select no, first_name, last_name, email from emaillist order by no desc";
 			pstmt = connection.prepareStatement(sql);
 
 			rs = pstmt.executeQuery();
